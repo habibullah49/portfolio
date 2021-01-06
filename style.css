@@ -1,9 +1,7 @@
 body{
   font-family: 'Roboto', sans-serif;
-  margin: 0%;
-  padding: 0%;
+  line-height: 150%; 
 }
-
 h1{
   font-size: 45px;
 }
@@ -16,6 +14,10 @@ h2{
   color: tomato;
 }
 
+.top-banner{
+  margin-top: 10px;
+}
+
 .half-width{
   width: 40%;
   float: left;
@@ -24,7 +26,7 @@ h2{
 }
 
 .half-width img{
-  width: 100%;
+  width: 85%;
 }
 section{
   height: 500px;
@@ -33,29 +35,34 @@ section{
 .button{
   text-decoration: none;
   background-image:linear-gradient(50deg,lightSalmon,tomato);
-  padding: 10px 20px;
+  padding: 15px 45px;
   border-radius: 10px;
   color: white;
   font-weight: 700;
-  margin-top: 100px;
-  
+  display:inline-block;
+  margin-top: 20px;
+    
 }
 p{
   color: dimgray;
 }
 
+.experience-area{
+  background-color: rgb(238, 244, 247);
+  
+}
 
-#hedder{
-  text-align: center;
+.experience-inner-div{
+  padding:25px;
 }
 
 .single-experience{
+  margin-top: 40px;
   box-shadow: 10px 10px 40px gray;
   border-radius: 5px;
   height: 70%;
   background-color: white;
-  width: 25%;
- 
+  width: 25%; 
 }
 
 .skills{
@@ -64,6 +71,10 @@ p{
   margin: 90px;
   height: 250px;
  }
+
+ .text-align{
+  text-align: center;
+}
  
  .container {
    width: 70%; 
@@ -84,33 +95,37 @@ p{
    background-color:red;
    text-align: center;
  } 
-.experience-area{
-  background-color: rgb(218, 222, 224);
-}
 
 .background-area{
   background-image: url("images/Group_33094_1.png");
   background-repeat: no-repeat; 
-  background-position: center;
+  background-position:center;
+  border-radius: 20px;
   padding: 100px;
   margin: 100px;
-  height: 25px;   
+  height:70px;
+ 
+  
 }
-
-#half{
+#plagin{
+  float: right; 
+  
+}
+#name-color{
   color: white;
-   
-}
-
-
-
-.center{
-  text-align: center;
+ 
 }
 
 footer p{
   font-size: 20px;
 }
+.icon-img{
+  height: 45px;
+  width: 40px;
+}
+
+
+
 
 
 
