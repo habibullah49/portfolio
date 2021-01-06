@@ -8,6 +8,10 @@ h1{
   font-size: 45px;
 }
 
+h2{
+  margin-left: 10px;
+}
+
 .name-highlight{
   color: tomato;
 }
@@ -33,6 +37,8 @@ section{
   border-radius: 10px;
   color: white;
   font-weight: 700;
+  margin-top: 100px;
+  
 }
 p{
   color: dimgray;
@@ -51,6 +57,33 @@ p{
   width: 25%;
  
 }
+
+.skills{
+  background: rgb(68, 62, 62);
+  color: white;
+  margin: 90px;
+  height: 250px;
+ }
+ 
+ .container {
+   width: 70%; 
+ }
+ 
+ .html{
+   width: 90%;
+   background-color:green;
+   text-align: center;
+ } 
+ .css {
+   width: 80%;
+   background-color:blue;
+   text-align: center;
+ }
+ .python {
+   width: 65%;
+   background-color:red;
+   text-align: center;
+ } 
 .experience-area{
   background-color: rgb(218, 222, 224);
 }
@@ -69,6 +102,8 @@ p{
    
 }
 
+
+
 .center{
   text-align: center;
 }
@@ -76,4 +111,6 @@ p{
 footer p{
   font-size: 20px;
 }
+
+
 
